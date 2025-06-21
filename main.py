@@ -194,7 +194,7 @@ def main():
                             img = Image.open(buf)
                             plt.close()
                             
-                            st.image(img, use_column_width=True)
+                            st.image(img, use_container_width=True)
                 else:
                     st.error("Failed to generate samples. Please check the model.")
     
